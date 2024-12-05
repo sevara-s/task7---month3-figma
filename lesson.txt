@@ -1,0 +1,26 @@
+"function" keyword is used to define Javascript funcitons
+
+1)Declaration function: it is just simple funciton in Javascript.
+funciton declaration is used for later use.When they are called they are going to be used.
+
+Example:
+        function multiply(a,b){
+            return a * b;
+        }
+        console.log(multiply(5,7));
+2) Expressions function: funtction expression can be stored in variable and the variable can be used as function.
+
+Example:  
+        const multiply = funciton(a,b) {return: a * b};
+        console.log(multiply(6,8);
+when function stored in variable , varaible should be given const to prevent from changing the variable name that now serves as function.
+
+3) Immediately Invoked function-->Functions that ere executed rigth after they are definded
+
+4)High-order functions are those takes other functions as argument and return them.
+
+In Javascript functions can return objects too.
+
+5)Factory function - creates and returns objects
+
+
