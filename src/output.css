@@ -719,6 +719,10 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-\[10px\] {
+  margin-top: 10px;
+}
+
 .mt-\[20px\] {
   margin-top: 20px;
 }
@@ -731,20 +735,20 @@ video {
   margin-top: 40px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
 .mt-\[60px\] {
   margin-top: 60px;
 }
 
-.mt-\[\] {
-  margin-top: ;
-}
-
-.mt-\[10px\] {
-  margin-top: 10px;
-}
-
 .mt-\[70px\] {
   margin-top: 70px;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
 }
 
 .box-border {
@@ -1196,6 +1200,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
@@ -1396,6 +1404,10 @@ video {
   gap: 10px;
 }
 
+.gap-\[110px\] {
+  gap: 110px;
+}
+
 .gap-\[15px\] {
   gap: 15px;
 }
@@ -1408,12 +1420,12 @@ video {
   gap: 40px;
 }
 
-.gap-\[\] {
-  gap: ;
+.gap-\[5px\] {
+  gap: 5px;
 }
 
-.gap-\[110px\] {
-  gap: 110px;
+.gap-\[60px\] {
+  gap: 60px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1871,6 +1883,15 @@ video {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#F3F3F3\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 243 243 / var(--tw-bg-opacity, 1));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2066,10 +2087,6 @@ video {
   vertical-align: super;
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2086,6 +2103,10 @@ video {
   font-size: 22px;
 }
 
+.text-\[28px\] {
+  font-size: 28px;
+}
+
 .text-\[32px\] {
   font-size: 32px;
 }
@@ -2096,10 +2117,6 @@ video {
 
 .text-\[62px\] {
   font-size: 62px;
-}
-
-.text-\[28px\] {
-  font-size: 28px;
 }
 
 .font-\[400\] {
@@ -2190,6 +2207,11 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.text-\[\#000\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
 .text-\[\#232323\] {
   --tw-text-opacity: 1;
   color: rgb(35 35 35 / var(--tw-text-opacity, 1));
@@ -2227,10 +2249,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-\[\] {
-  color: ;
 }
 
 .underline {
@@ -2724,10 +2742,6 @@ img {
 
 .hover\:font-bold:hover {
   font-weight: 700;
-}
-
-.hover\:text-\[\]:hover {
-  color: ;
 }
 
 .hover\:text-\[\#232323\]:hover {
